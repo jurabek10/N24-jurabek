@@ -25,6 +25,13 @@ img {
     height: auto;
 }
 
+/* OUTLINE STYLES */
+
+*:focus {
+    outline: 2px dashed #7296EC;
+    outline-offset: 3px;
+}
+
 .button {
     display: inline-block;
     padding: 13px 20px;
@@ -107,6 +114,21 @@ img {
 
 .currency-rates-type {
     color: #2959CE;
+}
+
+.global-search-form {
+    margin-right: 28px;
+}
+
+.global-search-form-input {
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    border: 0;
+    font-size: 14px;
+    line-height: normal;
+    border-radius: 60px;
 }
 
 .lang-toggle {
