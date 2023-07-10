@@ -323,7 +323,8 @@ img {
 .world-news-container {
     display: flex;
     justify-content: space-between;
-}
+    flex-wrap: wrap;
+} 
 
 .world-news-grid {
     display: flex;
@@ -351,10 +352,29 @@ img {
     border-radius: 10px;
 }
 
+.world-news-main {
+    background-color: #f6f6f6;
+    border-radius: 15px;
+}
+
+.world-news-main-heading {
+    padding-top: 20px;
+    padding-left: 17px;
+}
+
 
 .world-news-main-grid-item {
     width: 393px;
 } 
+
+.world-news-main-article-card {
+    padding-left: 17px;
+}
+
+.main-news-title {
+    font-size: 18px;
+    line-height: 24px;
+}
 
 
 
