@@ -427,6 +427,11 @@ img {
     width: 393px;
 }
 
+.layout-2-1-sidebar-specific {
+    width: 393px;
+}
+
+
 .layout-2-1-sidebar-item:not(:last-child) {
     margin-bottom: 10px;
 }
@@ -512,8 +517,119 @@ img {
     border-radius: 15px;
 }
 
-/* SITE-FOOTER */
 
+/* SPECIFIC-NEWS */
+.specific-news {
+    flex-direction: column;
+}
+
+.specific-news-source {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.specific-news-source-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.specific-news-source-time {
+    display: flex;
+    color: #5E5F61;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.specific-news-source-address {
+    margin-right: 5px;
+}
+
+.specific-news-content {
+    flex-direction: column;
+}
+
+.specific-news-content-title {
+    padding: 0;
+    margin: 0;
+    margin-top: 36px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.specific-news-content-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.specific-news-content-img {
+    width: 797px;
+    height: 300px;
+    border-radius: 13px;
+    margin-top: 20px;
+}
+
+.specific-news-content-text {
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px
+}
+
+.specific-news-divider {
+    margin: 0;
+    margin-top: 50px;
+    color: #d2d2d2;
+}
+
+
+/* MOST-INTERESTING-NEWS */
+.most-interesting-news {
+    margin-top: 60px;
+}
+
+.most-interesting-news-article-card {
+    padding: 20px 23px 15px 16px;
+}
+
+.most-interesting-news-heading {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.most-interesting-news-card-text {
+    margin-bottom: 23px;
+}
+
+
+.most-interesting-news-footer {
+    color: #5E5F61;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* SITE-FOOTER */
 .site-footer {
     background-color: #7297EF;
 }
@@ -603,6 +719,7 @@ img {
 .site-footer-bottom-link:last-child {
     margin-right: 0;
 }
+
 
 
 
