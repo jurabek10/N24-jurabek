@@ -629,6 +629,124 @@ img {
 }
 
 
+/* CONTACT */
+.contact-main-content {
+    padding-top: 60px;
+}
+
+.contact-heading {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-wrapper {
+    display: flex;
+}
+
+.contact-addresses {
+    width: 696px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.name-phone {
+    display: flex;
+}
+
+/* .name-phone:not(:last-child) {
+    margin-right: 10px;
+} */
+
+.input {
+    width: 343px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input:not(:last-child) {
+    margin-right: 10px;
+}
+
+.email {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+.textarea {
+    display: block;
+    width: 100%;
+    min-height: 180px;
+    resize: vertical;
+    margin-top: 10px;
+}
+
+.contact-button {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    padding: 17px 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #7297EF;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.contact-info-wrapper {
+    width: 494px;
+    margin-top: 20px;
+}
+
+.contact-info {
+    padding: 40px 25px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+}
+
+.contact-info-title {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-info-text {
+    margin: 0;
+    margin-top: 7px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-info-divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #d2d2d2;
+}
+
+
 /* SITE-FOOTER */
 .site-footer {
     background-color: #7297EF;
